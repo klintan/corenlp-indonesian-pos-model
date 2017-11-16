@@ -2,7 +2,7 @@
 model = indonesian-pos-tagger-model.model
 arch = words(-1,1),unicodeshapes(-1,1),order(2),suffix(4)
 wordFunction =
-trainFile = format=TSV,wordColumn=1,tagColumn=4,indonesian-dev.conllu
+trainFile = format=TSV,wordColumn=1,tagColumn=4,indonesian-train.conllu
 closedClassTags =
 closedClassTagThreshold = 40
 curWordMinFeatureThresh = 2

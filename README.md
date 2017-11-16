@@ -2,7 +2,7 @@
 
  - 1. Download Stanford CoreNLP 3.8.0 from https://stanfordnlp.github.io/CoreNLP/index.html#download
  - 2. Download trainin data for Indonesian Part of Speech from http://universaldependencies.org
- - 3. Run the script ```clean_conllu.py``` to remove all comments from the conllu file. 
+ - 3. Run the script ```clean_conllu.py``` to remove all comments from the conllu file. Make sure to edit the filename for your .conllu file here before running. 
  - 4. Update the indonesian.props file with appropriate settings (trainFile and model most importantly)
  - 5. Run the train.sh script (or copy paste the one liner from the script to the terminal.) Make sure your path to the downloaded CoreNLP package is correct before you run the script. 
 
