@@ -1,0 +1,1 @@
+java -classpath ./stanford-corenlp-full/stanford-corenlp-3.8.0.jar edu.stanford.nlp.tagger.maxent.MaxentTagger -prop indonesian.props
