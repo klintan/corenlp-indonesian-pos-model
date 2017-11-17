@@ -1,8 +1,8 @@
 ## tagger training invoked at Tue Jul 08 16:08:39 PDT 2014 with arguments:
-model = indonesian-pos-tagger-model.model
+model = indonesian-pos.tagger
 arch = words(-1,1),unicodeshapes(-1,1),order(2),suffix(4)
 wordFunction =
-trainFile = format=TSV,wordColumn=1,tagColumn=4,indonesian-train.conllu
+trainFile = format=TSV,wordColumn=1,tagColumn=3,indonesian-train.conllu
 closedClassTags =
 closedClassTagThreshold = 40
 curWordMinFeatureThresh = 2

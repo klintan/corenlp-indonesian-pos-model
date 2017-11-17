@@ -1,0 +1,2 @@
+ java -cp ./stanford-corenlp-full/stanford-corenlp-3.8.0.jar edu.stanford.nlp.tagger.maxent.MaxentTagger -model indonesian-pos.tagger -textFile id-ud-train-raw.txt -outputFormat tsv -outputFile text.tag
+ 
